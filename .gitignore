@@ -1,0 +1,13 @@
+# SASS
+.sass-cache
+
+# SublimeText
+/*.sublime-project
+*.sublime-workspace
+sftp-config*.json
+
+# OSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
