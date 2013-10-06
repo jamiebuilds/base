@@ -17,10 +17,12 @@ body {
   font: normal 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
 }
 
 button, input, select, textarea {
   -webkit-font-smoothing: inherit;
+  -moz-font-smoothing: inherit;
   outline-offset: -3px;
 }
 
