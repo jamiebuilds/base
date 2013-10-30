@@ -39,7 +39,7 @@ img {
   height: auto;
   vertical-align: top;
   -ms-interpolation-mode: bicubic;
-  @include image-rendering(optimizeQuality);
+  image-rendering: optimizeQuality;
 }
 
 h1, h2, h3 {

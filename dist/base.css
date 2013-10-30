@@ -1,0 +1,60 @@
+/*! base.css v1.0.2 | MIT License | git.io/giMAHw */
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font: normal 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select, textarea {
+  -webkit-font-smoothing: inherit;
+  outline-offset: -3px;
+}
+
+a, input, button {
+  -ms-touch-action: none !important;
+}
+
+iframe {
+  vertical-align: top;
+  border: none;
+}
+
+img {
+  height: auto;
+  vertical-align: top;
+  -ms-interpolation-mode: bicubic;
+  image-rendering: optimizeQuality;
+}
+
+h1, h2, h3 {
+  -webkit-font-feature-settings: "liga", "dlig";
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: none;
+}

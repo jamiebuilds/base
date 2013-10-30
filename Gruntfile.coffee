@@ -5,28 +5,22 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-init'
   grunt.loadNpmTasks 'grunt-contrib-sass'
   grunt.loadNpmTasks 'grunt-contrib-watch'
-  grunt.loadNpmTasks 'bootcamp'
 
   # Grunt Tasks
   grunt.initConfig
     meta: version: '0.0.1'
 
     # Sass
-    sass: test:
+    sass: dist:
       options:
         style: 'expanded'
-        loadPath: 'node_modules/bootcamp/dist'
-      files: './test/results.css': './test/specs.scss'
-
-    # Bootcamp
-    bootcamp: dist:
-      files: src: ['./test/results.css']
+      files: './dist/base.css': './dist/base.scss'
 
     # Watch
     watch: dist:
-      files: ['./dist/**/*.scss', './test/**/*.scss']
-      tasks: ['sass', 'bootcamp']
+      files: ['./dist/**/*.scss']
+      tasks: ['sass']
 
   # Tasks
-  grunt.registerTask 'default', ['sass', 'bootcamp', 'watch']
-  grunt.registerTask 'test',    ['sass', 'bootcamp']
+  grunt.registerTask 'default', ['sass', 'watch']
+  grunt.registerTask 'test',    ['sass']

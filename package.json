@@ -1,0 +1,55 @@
+{
+  "name": "base",
+  "version": "0.0.1",
+  "description": "A low-level starting point for your styles",
+  "keywords": [
+    "sass",
+    "scss",
+    "bower"
+  ],
+  "homepage": "https://github.com/tctcl/base",
+  "bugs": "https://github.com/tctcl/base/issues",
+  "author": {
+    "name": "Tactical",
+    "url": "https://github.com/tctcl"
+  },
+  "contributors": [
+    {
+      "name": "James Kyle",
+      "email": "me@thejameskyle.com",
+      "url": "https://github.com/thejameskyle"
+    }
+  ],
+  "main": "dist/base.css",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tctcl/base.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "files": [
+    "dist/"
+  ],
+  "bin": {},
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-init": "~0.2.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tctcl/base/blob/master/LICENSE.md"
+    }
+  ]
+}
