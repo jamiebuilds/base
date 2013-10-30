@@ -20,7 +20,7 @@
       "url": "https://github.com/thejameskyle"
     }
   ],
-  "main": "dist/base.css",
+  "main": "dist/base.scss",
   "repository": {
     "type": "git",
     "url": "git://github.com/tctcl/base.git"
